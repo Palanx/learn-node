@@ -1,0 +1,24 @@
+{
+  "name": "web_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server-express.js",
+  "scripts": {
+    "start": "node server-express.js",
+    "nodemon": "nodemon server-express.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Palanx",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.14.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1"
+  }
+}
